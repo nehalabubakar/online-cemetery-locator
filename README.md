@@ -21,9 +21,9 @@ The Online Cemetery Locator is a responsive web application made on Codeigniter 
 	* Search for function named **"location"** and add your API key provided by the google at **"$config[apikey]"**.
 
 ## Login to Dashboard
-	* Head over to the URL "domain.com/login" and use default email and password to login as admin.
-	* Email: admin@admin.com
-	* Password: 123456
+	* Head over to the URL **"domain.com/login"** and use default email and password to login as admin.
+	* **Email:** admin@admin.com
+	* **Password:** 123456
 	
 ## Contribute
 Thank you for choosing Online Cemetery Locator and we would be more then happy if your would like to contribute. Developers are encouraged to use GitHub's fork/pull request mechanism for contributing to this repository.
