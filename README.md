@@ -23,7 +23,7 @@ The Online Cemetery Locator is a responsive web application made on Codeigniter 
 ## Login to Dashboard
 	* Head over to the URL **domain.com/login** and use default email and password to login as admin.
 	* **Email:** admin@admin.com
-	* **Password:**
+	* **Password:** 123456
 
 ## Contribute
 Thank you for choosing Online Cemetery Locator and we would be more then happy if your would like to contribute. Developers are encouraged to use GitHub's fork/pull request mechanism for contributing to this repository.
