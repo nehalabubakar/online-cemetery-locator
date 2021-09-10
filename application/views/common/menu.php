@@ -1,0 +1,128 @@
+<body class="cssAnimate ct-headroom--fixedMenu">
+<div class="ct-preloader">
+	<div class="ct-preloader-content"></div>
+</div>
+<div class="ct-menuMobile">
+	<ul class="ct-menuMobile-navbar list-unstyled">
+		<li class="onepage"><a href="<?php echo base_url(); ?>" class="ct-js-btnScroll">Home</a></li>
+		<li class="onepage"><a href="<?php echo base_url() . "location"; ?>" class="ct-js-btnScroll">Burial/Cemetery
+				Locator</a></li>
+		<li class="onepage"><a href="<?php echo base_url(); ?>about-us" class="ct-js-btnScroll">About Us</a></li>
+
+		<li class="">
+			<a href="<?php echo base_url() . "our-services"; ?>">Our Services</a>
+			<ul>
+				<li class="down_list"><a href="<?php echo base_url() . "obituaries"; ?>" class="text-capitalize">obituaries</a></li>
+				<li class="down_list"><a href="<?php echo base_url() . "flower-and-gift"; ?>" class="text-capitalize">flowers &amp; gifts</a></li>
+				<li class="down_list"><a href="<?php echo base_url() . "funeral-services"; ?>" class="text-capitalize">Funeral Services</a></li>
+				<li class="down_list"><a href="<?php echo base_url() . "create_your_family_tomb"; ?>" class="text-capitalize">Create Your Family<br> Tomb</a></li>
+				<li class="down_list"><a href="<?php echo base_url() . "grief-healing"; ?>" class="text-capitalize">grief &amp; healing</a></li>
+			</ul>
+		</li>
+		<li class="onepage"><a href="<?php echo base_url(); ?>contact-us" class="ct-js-btnScroll">Contact Us</a></li>
+	</ul>
+</div>
+
+<div id="ct-js-wrapper" class="ct-pageWrapper">
+	<div class="ct-navbarMobile ct-navbarMobile--inverse">
+		<a class="navbar-brand" href="index.html">
+			<img src="<?php echo base_url(); ?>assets/website/images/logo.png" alt="Website Logo">
+		</a>
+		<button type="button" class="navbar-toggle">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+
+	<div class="ct-topBar ct-topBar--small hidden-xs">
+		<div class="container">
+			<div class="ct-u-displayTableVertical ct-u-marginTopMinus10">
+				<div class="ct-u-displayTableCell ct-topBar-col1">
+					<a href="<?php echo base_url(); ?>"><img
+								src="<?php echo base_url(); ?>assets/website/images/logo.png" alt="Logo Image"/></a>
+				</div>
+				<div class="ct-u-displayTableCell ct-topBar-col2">
+					<div class="ct-contactBox">
+						<ul class="ct-contactBox-list list-unstyled list-inline">
+							<li data-toggle="tooltip" data-placement="bottom" title="Call us" class="active"><a
+										href="#"><i class="fa fa-phone fa-2x"></i></a></li>
+						</ul>
+						<span class="ct-contactBox-content ct-u-colorMotive ct-u-displayBlock ct-fs-i ct-u-fontSize24 ct-u-fontType2"><a
+									href="tel:<?php echo $this->config->item('phone_number'); ?>"></a><?php echo $this->config->item('phone_number'); ?></span>
+						<span class="ct-contactBox-info ct-fw-800 ct-fs-i ct-u-colorWhite ct-u-displayBlock ">Call Us 24/7</span>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="ct-u-displayTableCell ct-topBar-col3">
+					<div class="ct-contactBox" style="width: 130%">
+						<ul class="ct-contactBox-list ct-contactBox-list--smallPadding list-unstyled list-inline">
+							<li data-toggle="tooltip" data-placement="bottom" title="Send a message" class="active"><a
+										href="#"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+						</ul>
+						<span class="ct-contactBox-content ct-u-displayBlock ct-u-fontType2 ct-u-fontSize24 ct-fs-i ct-u-colorMotive"><a
+									href="mailto:<?php echo $this->config->item('email'); ?>" class="__cf_email__"
+									data-cfemail="abc2c5cdc4ebced3cac6dbc7ce85c8c4c6"
+									style="color: #c0b17b"><?php echo $this->config->item('email'); ?></a></span>
+						<span class="ct-contactBox-info ct-fw-800 ct-fs-i ct-u-colorWhite ct-u-displayBlock ">We will respond within 12 h</span>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-default ct-stretchedMenu" data-startnavbar="35">
+		<div class="container">
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav pull-left">
+					<li class="onepage"><a href="<?php echo base_url(); ?>" class="ct-js-btnScroll">Home</a></li>
+					<li class="onepage"><a href="<?php echo base_url() . "location"; ?>" class="ct-js-btnScroll">Burial/Cemetery
+							Locator</a></li>
+					<li class="onepage"><a href="<?php echo base_url(); ?>about-us" class="ct-js-btnScroll">About Us</a>
+					</li>
+					<!--<li class="onepage"><a href="<?php /*echo base_url() . "our-services"; */?>" class="ct-js-btnScroll">Our
+							Services</a></li>-->
+
+					<li class="onepage dropdown"><a href="<?php echo base_url() . "our-services"; ?>" class="ct-js-btnScroll">Our Services</a>
+						<ul class="onepage dropdown-menu">
+							<li><a href="<?php echo base_url() . "obituaries"; ?>" class="text-capitalize">obituaries</a></li>
+							<li><a href="<?php echo base_url() . "flower-and-gift"; ?>" class="text-capitalize">flowers &amp; gifts</a></li>
+							<li><a href="<?php echo base_url() . "funeral-services"; ?>" class="text-capitalize">Funeral Services</a></li>
+							<li><a href="<?php echo base_url() . "create_your_family_tomb"; ?>" class="text-capitalize">Create Your Family<br> Tomb</a></li>
+							<li><a href="<?php echo base_url() . "grief-healing"; ?>" class="text-capitalize">grief &amp; healing</a></li>
+						</ul>
+					</li>
+
+					<li class="onepage"><a href="<?php echo base_url(); ?>contact-us" class="ct-js-btnScroll">Contact
+							Us</a></li>
+				</ul>
+				<ul class="pull-right ct-socials ct-socials--noBorder list-unstyled list-inline">
+					<li data-toggle="tooltip" data-placement="bottom" title="Facebook"><a href=""><i
+									class="fa fa-facebook"></i></a></li>
+					<li data-toggle="tooltip" data-placement="bottom" title="Twitter"><a href=""><i
+									class="fa fa-twitter"></i></a></li>
+					<li data-toggle="tooltip" data-placement="bottom" title="Google Plus"><a href="#"><i
+									class="fa fa-google-plus"></i></a></li>
+					<li data-toggle="tooltip" data-placement="bottom" title="Search" class="active">
+						<div id="ct-js-navSearch" class="ct-navbar-navSearch">
+							<a href="#"><i class="fa fa-search"></i></a>
+						</div>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+				<div class="ct-navbar-search ct-navbar-search--type2" style="display: none;">
+					<form role="form">
+						<div class="form-group">
+							<input type="text" class="form-control ct-fs-i input-sm"
+								   placeholder="Please type keywords..." required="">
+						</div>
+						<button class="ct-navbar-search-button" type="submit">
+							<i class="fa fa-search fa-fw"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</nav>
